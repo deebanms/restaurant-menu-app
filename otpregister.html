@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant Menu | Verify OTP</title>
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <nav>
+        <div class="logo-container">
+          <a href="index.html">
+            <img
+              src="https://via.placeholder.com/150x50?text=ShopLogo"
+              alt="Shop Logo"
+            />
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="login-section">
+        <div class="form-container">
+          <form action="" class="otp-form">
+            <h2>OTP Verification</h2>
+            <p>Enter the 4 digit OTP sent to your registered mobile number</p>
+            <div class="otp-inputs">
+              <input
+                type="text"
+                class="otp-input"
+                pattern="[0-9]*"
+                maxlength="1"
+                inputmode="numeric"
+                required
+              />
+              <input
+                type="text"
+                class="otp-input"
+                pattern="[0-9]*"
+                maxlength="1"
+                inputmode="numeric"
+                required
+              />
+              <input
+                type="text"
+                class="otp-input"
+                pattern="[0-9]*"
+                maxlength="1"
+                inputmode="numeric"
+                required
+              />
+              <input
+                type="text"
+                class="otp-input"
+                pattern="[0-9]*"
+                maxlength="1"
+                inputmode="numeric"
+                required
+              />
+            </div>
+            <p>Didn't receive the OTP? <a href="#">Resend OTP</a></p>
+            <button type="submit">Verify OTP</button>
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
